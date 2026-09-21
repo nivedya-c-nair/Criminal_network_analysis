@@ -1,0 +1,128 @@
+{
+    "cases": [
+        {
+            "case_id": "Case_102",
+            "text": "Rahul called Anu in Kochi on 15 August 2026. Contact: 9876543210.",
+            "relationships": [
+                {
+                    "from": "Rahul",
+                    "type": "called",
+                    "to": "Anu",
+                    "confidence": 0.94,
+                    "date": "15 August 2026",
+                    "source": "Call record"
+                },
+                {
+                    "from": "Rahul",
+                    "type": "used",
+                    "to": "9876543210",
+                    "confidence": 0.98,
+                    "date": "15 August 2026",
+                    "source": "Phone record"
+                },
+                {
+                    "from": "Rahul",
+                    "type": "located_in",
+                    "to": "Kochi",
+                    "confidence": 0.9,
+                    "date": "15 August 2026",
+                    "source": "Investigation record"
+                },
+                {
+                    "from": "Case_102",
+                    "type": "occurred_on",
+                    "to": "15 August 2026",
+                    "confidence": 1.0,
+                    "date": "15 August 2026",
+                    "source": "Case record"
+                }
+            ]
+        },
+        {
+            "case_id": "Case_103",
+            "text": "Arjun used 9876543210 and called Meera in Kochi on 20 August 2026.",
+            "relationships": [
+                {
+                    "from": "Arjun",
+                    "type": "used",
+                    "to": "9876543210",
+                    "confidence": 0.92,
+                    "date": "20 August 2026",
+                    "source": "Phone record"
+                },
+                {
+                    "from": "Arjun",
+                    "type": "called",
+                    "to": "Meera",
+                    "confidence": 0.91,
+                    "date": "20 August 2026",
+                    "source": "Call record"
+                },
+                {
+                    "from": "Arjun",
+                    "type": "located_in",
+                    "to": "Kochi",
+                    "confidence": 0.88,
+                    "date": "20 August 2026",
+                    "source": "Investigation record"
+                },
+                {
+                    "from": "Case_103",
+                    "type": "occurred_on",
+                    "to": "20 August 2026",
+                    "confidence": 1.0,
+                    "date": "20 August 2026",
+                    "source": "Case record"
+                }
+            ]
+        },
+        {
+            "case_id": "Case_104",
+            "text": "Meera called Rahul from Mumbai on 25 August 2026. Contact: 9123456780.",
+            "relationships": [
+                {
+                    "from": "Meera",
+                    "type": "called",
+                    "to": "Rahul",
+                    "confidence": 0.89,
+                    "date": "25 August 2026",
+                    "source": "Call record"
+                },
+                {
+                    "from": "Meera",
+                    "type": "used",
+                    "to": "9123456780",
+                    "confidence": 0.95,
+                    "date": "25 August 2026",
+                    "source": "Phone record"
+                },
+                {
+                    "from": "Meera",
+                    "type": "located_in",
+                    "to": "Mumbai",
+                    "confidence": 0.87,
+                    "date": "25 August 2026",
+                    "source": "Investigation record"
+                },
+                {
+                    "from": "Case_104",
+                    "type": "occurred_on",
+                    "to": "25 August 2026",
+                    "confidence": 1.0,
+                    "date": "25 August 2026",
+                    "source": "Case record"
+                }
+            ]
+        },
+        {
+            "case_id": "Case_105",
+            "text": "Arun called Maya in Delhi on 28 August 2026. Arun used 9988776655.",
+            "relationships": []
+        },
+        {
+            "case_id": "Case_106",
+            "text": "Arun called Maya in Delhi on 28 August 2026. Arun used 9988776655.",
+            "relationships": []
+        }
+    ]
+}

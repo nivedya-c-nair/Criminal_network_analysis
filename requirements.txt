@@ -1,0 +1,6 @@
+spacy
+networkx
+matplotlib
+streamlit
+pyvis
+openai
