@@ -37,3 +37,16 @@ The system extracts relationships such as:
 Arjun → called → Meera
 Arjun → used → 9987654321
 Arjun → located_in → Kochi
+## 🖥️ Dashboard Preview
+
+### 🌐 Network Graph
+
+![Network Graph](screenshots/network_graph.png)
+
+### 🤖 AI Analysis
+
+![AI Analysis](screenshots/ai_analysis.png)
+
+### 💬 Query Assistant
+
+![Query Assistant](screenshots/query_assistant.png)
